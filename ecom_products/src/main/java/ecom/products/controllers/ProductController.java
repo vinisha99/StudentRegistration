@@ -25,4 +25,9 @@ public class ProductController {
 		model.addAttribute("products", productService.getAllProducts());
 		return "product_all";
 	}
+	
+//	@GetMapping("/{productId}")
+//	public String getProductById(Model model, String productId) {
+//		
+//	}
 }
